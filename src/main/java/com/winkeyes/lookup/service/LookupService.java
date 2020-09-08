@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class LookupService implements ILookupService {
 
 	@Autowired
-	public PlayroundClient client;
+	public TimeClient client;
 
 	@Override
 	public String getAck() {

@@ -5,9 +5,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(name = "playround", url = "${CLIENT_URL}")
-public interface PlayroundClient {
+@FeignClient(name = "time", url = "${CLIENT_URL}")
+public interface TimeClient {
 
-	@RequestMapping(method = RequestMethod.GET, value = "/sayhello")
+	@RequestMapping(method = RequestMethod.GET, value = "/time/today")
 	public ResponseEntity<String> getAck();
 }

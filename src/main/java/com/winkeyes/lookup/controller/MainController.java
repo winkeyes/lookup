@@ -9,13 +9,13 @@ import com.winkeyes.lookup.service.ILookupService;
 import com.winkeyes.lookup.service.LookupService;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/lookup")
 public class MainController {
 	
 	@Autowired
 	public ILookupService service;
 	
-	@GetMapping(value = "hello")
+	@GetMapping(value = "time")
 	public String  hello() {
 		
 		return service.getAck();
