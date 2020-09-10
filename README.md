@@ -6,7 +6,7 @@ Calls time service to get the time and return the value. Using Fiegn Client Api 
 
 
 If applicaiton is running dev profile kindly specify service name. And this was created for demo Route53 (Service Discovery) 
-https://studio.youtube.com/video/mSWXJ6H6k4g/edit
+https://youtu.be/mSWXJ6H6k4g
 
 CLIENT_URL : ${time-service}.winkeyes.com:8083
 
