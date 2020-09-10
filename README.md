@@ -13,4 +13,4 @@ CLIENT_URL : ${time-service}.winkeyes.com:8083
 
 Else if it is default 
 CLIENT_URL : ${time-service}:8083
-
+RUN command: java -jar -Dtime-service=http:localhost lookup-0.0.1-SNAPSHOT.jar
