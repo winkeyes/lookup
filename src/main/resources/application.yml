@@ -6,3 +6,5 @@ management:
         jmx:
             exposure:
                 include: health,info  
+                
+CLIENT_URL : ${time-service}:8083                
